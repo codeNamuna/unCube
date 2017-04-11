@@ -389,7 +389,7 @@ void gameLogic(int argc, char **argv) {                                         
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_STENCIL_TEST);
 
-    PlaySound(TEXT("C:\\Users\\Shivang Singh\\Desktop\\glut\\bruh\\sounds\\deso.wav"), NULL, SND_LOOP | SND_ASYNC);
+    PlaySound(TEXT("C:\\Users\\codeNamuna\\Desktop\\glut\\bruh\\sounds\\deso.wav"), NULL, SND_LOOP | SND_ASYNC);
 
 	glutMainLoop();
 }

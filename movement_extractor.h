@@ -6,7 +6,7 @@ void movement_extractor(int rows, int columns, int * moveout){
     char ch;
     int i=0;
 
-    fstream fin("C:\\Users\\Shivang Singh\\Desktop\\glut\\bruh\\script\\movement_map.txt", fstream::in);
+    fstream fin("C:\\Users\\codeNamuna\\Desktop\\glut\\bruh\\script\\movement_map.txt", fstream::in);
 
     while(fin>>ch){
         moveout[i]=int(ch-48);
